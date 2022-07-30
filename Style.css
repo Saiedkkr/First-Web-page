@@ -1,6 +1,52 @@
 body{
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+section{
+    height: 870px;
+}
+.top-banner{
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+}
 .highlight{
-    color: orange;
+    color: #ED7A11;
+}
+h1{
+    font-size: 80px;
+    line-height: 150%;
+    color: #354E5C;
+}
+p{
+    color: #354E5C;
+    font-size: 18px;
+    line-height: 150%;
+}
+.half-width{
+    width:40%;
+    float: left;
+    margin:5%;
+    
+}
+.half-width img{
+    width: 100%;
+}
+input[name=email] {
+    color: aliceblue;
+    max-width: 50%;
+    width: 60%;
+    height: 55px;
+    background-color: #ED7A11;
+    border: 0;
+    padding: 0px 20px 0px 20px;
+    margin: 0% -11.5% 0% 0%;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    color: #ED7A11;
+    max-width: 40%;
+    width: 10%;
+    height: 40px;
+    border: 0;
+    
 }
